@@ -4,8 +4,10 @@
 <head>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cairo">
     <link href="./output.css" rel="stylesheet">
+    <script>document.documentElement.classList.add('js')</script>
+
 </head>
-<body class="flex flex-col w-full bg-bc" style="font-family: Cairo"">
+<body class="flex flex-col w-full " style="font-family: Cairo"">
 <div class="fixed z-50 flex items-center justify-between w-full h-16 px-8 py-2 bg-white shadow">
     <div class="flex items-center space-x-4">
         <button class="px-4 py-1 font-bold text-white bg-pgc rounded-3xl hover:bg-green-500">انشاء حساب </button>
@@ -23,10 +25,10 @@
      </div>
    </div>
 
-<section class="relative flex flex-col w-full pt-44 space-y-4 bg-gradient-to-b from-bgc to-transparent">
+<section class="relative flex flex-col w-full space-y-4 pt-44 bg-gradient-to-b from-bgc to-transparent " >
     <img class="absolute opacity-50 -left-[0rem] w-full  top-[1rem]" src="./img/L.svg" alt="" />
     <img class="absolute opacity-50 -right-[0rem] w-full top-[0rem] transform -scale-x-100" src="./img/L.svg" alt="" />
-    <div class="relative flex flex-col items-center justify-center h-screen scale-95">
+    <div class="relative flex flex-col items-center justify-center h-screen scale-90 delay-[300ms] duration-[600ms] taos:scale-[0.6] taos:opacity-0" data-taos-offset="400">
          <span class="text-xl absolute -top-7 z-10 left-[56.5rem] text-pbc font-bold animate-pulse">معالجة الطلبيات</span>
 
         <img  class="w-[150rem] absolute -top-56 left-[5rem]" src="./img/Artboard 1.svg " alt="">
@@ -38,153 +40,414 @@
           </svg>
 
 
-     <div class="absolute  text-pbc top-[35rem] left-[31rem] font-bold text-transparent text-4xl md:text-8xl bg-clip-text h-14 md:h-28 bg-gradient-to-r from-pbc to-pgc"> Jump to the next Level</div>
+     <div class="font-bold text-transparent mt-96 text-pbc text-7xl bg-clip-text h-14 md:h-28 bg-gradient-to-r from-pbc to-pgc"> Jump to the next Level</div>
      <svg class=" absolute w-72 -top-[10rem] left-[51.5rem]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
       <path fill="#fff" stroke="#fff" stroke-width="15" transform-origin="center" d="M148,84.7l13.8-8-10-17.3-13.8,8a50,50,0,0,0-27.4-15.9v-16h-20v16A50,50,0,0,0,63,67.4l-13.8-8-10,17.3,13.8,8a50,50,0,0,0,0,31.7l-13.8,8,10,17.3,13.8-8a50,50,0,0,0,27.5,15.9v16h20v-16a50,50,0,0,0,27.4-15.9l13.8,8,10-17.3-13.8-8a50,50,0,0,0,0-31.7Z">
       <animateTransform type="rotate" attributeName="transform" calcMode="spline" dur="2" values="0;120" keyTimes="0;1" keySplines="0 0 1 1" repeatCount="indefinite"></animateTransform></path></svg>
 
     </div>
 
-
-  <!-- <img class="absolute right-[33rem] w-24  top-[10rem] " src="./img/yalidine.png" alt="" />
-    <img class="absolute right-[30rem] w-24  top-[16rem] " src="./img/ecotrack.png" alt="" />
-    <img class="absolute right-[28rem] w-24  top-[22rem] " src="./img/maystro.png" alt="" />
-    <img class="absolute right-[28rem] w-24  top-[28rem] " src="./img/noest.png" alt="" />
-    <img class="absolute right-[30rem] w-24  top-[34rem] " src="./img/worldex.png" alt="" />
-    <img class="absolute right-[33rem] w-24  top-[40rem] " src="./img/zrexpress.png" alt="" />
-
-
-    <img class="absolute left-[33rem] w-24  top-[10rem] " src="./img/sheets.png" alt="" />
-    <img class="absolute left-[30rem] w-24  top-[18rem] " src="./img/shopify.png" alt="" />
-    <img class="absolute left-[30rem] w-24  top-[26rem] " src="./img/woocommerce.png" alt="" />
-    <img class="absolute left-[33rem] w-24  top-[35rem] " src="./img/youcan.png" alt="" />--> 
-
 </section>
 
 
-<section class="flex flex-col items-center justify-center w-full space-y-8 pt-36 bg-gradient-to-t from-bgc to-transparent">
-    <span class="text-4xl text-center">الخصائص  </span>
-    <div class="flex flex-row items-center justify-center w-full space-x-4">
-        <div class="flex items-center w-1/4 py-2 space-x-4 border-2 rounded-lg shadow border-pgc">
-            <div class="flex flex-col items-end w-3/4 space-y-2 text-xs text-right text-gray-500">
-                <span class="text-lg font-bold text-pbc"> الإحصائيات   </span>
-                <div class="flex items-center space-x-2">
-                  <span> تحليل مفصل للدخل والنفقات وصافي الأرباح. </span>
-                  <img class="w-2 rotate-180" src="./img/arrow6-svgrepo-com (1).svg" alt="">
-              </div>  
-              <div class="flex items-center space-x-2">
-                <span> تفصيل لفريق التأكيد وعملياته بتحليلات مفصلة. </span>
-                <img class="w-2 rotate-180" src="./img/arrow6-svgrepo-com (1).svg" alt="">
-            </div> 
-            <div class="flex items-center space-x-2">
-              <span> تفاصيل دقيقة حول عملية التسليم </span>
-              <img class="w-2 rotate-180" src="./img/arrow6-svgrepo-com (1).svg" alt="">
-          </div> 
-          <div class="flex items-center space-x-2">
-            <span> عرض أهم المؤشرات لتطوير الأعمال والتجارة</span>
-            <img class="w-2 rotate-180" src="./img/arrow6-svgrepo-com (1).svg" alt="">
-        </div> 
-            </div>
-          <img class="w-28 " src="./img/statistics-svgrepo-com (1).svg" alt="">
-        </div>
-        <div class="flex items-center w-1/4 py-2 space-x-4 border-2 rounded-lg shadow border-pgc">
-          <div class="flex flex-col items-end w-3/4 space-y-2 text-xs text-right text-gray-500">
-              <span class="text-lg font-bold text-pbc"> إدارة الطلبيات   </span>
-              <div class="flex items-center space-x-2">
-                <span> تجربة مستخدم مرنة وأسطورية. </span>
-                <img class="w-2 rotate-180" src="./img/arrow6-svgrepo-com (1).svg" alt="">
-            </div>  
-            <div class="flex items-center space-x-2">
-              <span> جميع معلومات الطلبيات بسهولة. </span>
-              <img class="w-2 rotate-180" src="./img/arrow6-svgrepo-com (1).svg" alt="">
-          </div> 
-          <div class="flex items-center space-x-2">
-            <span> سهولة في تعديل حالات التأكيد والتعديل.</span>
-            <img class="w-2 rotate-180" src="./img/arrow6-svgrepo-com (1).svg" alt="">
-        </div> 
-        <div class="flex items-center space-x-2">
-          <span> تحكم كامل في أعمدة الجدول</span>
-          <img class="w-2 rotate-180" src="./img/arrow6-svgrepo-com (1).svg" alt="">
-      </div> 
-          </div>
-        <img class="w-32 " src="./img/list-clipboard-svgrepo-com (2).svg" alt="">
+
+<section class="flex justify-center w-full -mt-36 bg-gradient-to-t from-bgc to-transparent" >
+  <div class="flex items-center w-10/12 justify-evenly">
+  <div class="flex flex-col w-1/3 space-y-4">
+      <div class="flex items-center space-x-4">
+      <img class="w-56 p-2 border rounded-lg border-pgc" src="./img/logo.png" alt="">
+      <img class="w-56 border rounded-lg border-pgc" src="./img/logo.png" alt="">
+  </div>
+      <div class="flex items-center space-x-4">
+          <img class="w-56 border rounded-lg border-pgc" src="./img/logo.png" alt="">
+          <img class="w-56 border rounded-lg border-pgc" src="./img/logo.png" alt="">
       </div>
-     
-      <div class="flex items-center w-1/4 py-2 space-x-4 border-2 rounded-lg shadow border-pgc">
-        <div class="flex flex-col items-end w-3/4 space-y-2 text-xs text-right text-gray-500">
-            <span class="text-lg font-bold text-pbc">  تخلص من عناء رفع الطلبيات لشركة التوصيل   </span>
-            <div class="flex items-center space-x-2">
-              <span>كتابة معلومات الطلبيات بشكل اوتوماتيكي في شركات التوصيل  
+  </div>
+  <div class="flex flex-col w-1/3 space-y-4 text-right delay-[300ms] duration-[600ms] taos:translate-x-[200px] taos:opacity-0" data-taos-offset="300">
+      <span class="text-2xl font-bold leading-loose tracking-wide"> لا داعي لتضييع الوقت  قم بتحويل المهام المتكررة إلى عمليات أوتوماتيكية 
+      </span>
+      <p class="text-lg leading-loose tracking-wide text-gray-600"> لا تتردد في استكشاف منصتنا المتكاملة لإدارة مهام التجارة الإلكترونية والتي ستحقق كل  احتياجاتك. ستجد أن استثمارك في هذه الحلول يعود عليك بالفوائد ويساعدك في تحقيق تطور ونمو أعمالك بطريقة أكثر فعالية وأكثر توفيرًا للوقت.</p>
+  </div>
+</div>
+</section>
+
+
+<section class="flex flex-col items-center justify-center w-full pt-16 space-y-8 bg-gradient-to-b from-bgc to-transparent">
+    <div class="flex justify-start w-9/12 ">
+      <div class="relative w-1/3 h-56 p-4 border-2 rounded-lg shadow border-pgc delay-[300ms] duration-[600ms] taos:translate-x-[-100%] taos:invisible" data-taos-offset="400">
+        <img class="absolute w-48 opacity-75 -left-2 top-4" src="./img/statistics-svgrepo-com (1).svg" alt="">
+        <div class="flex flex-col items-end w-full space-y-4 ">
+        <span class="font-bold text-pbc">  احصائيات دقيقة لاتخاذ القرارات السليمة 
+        </span>
+        <div class="flex flex-col items-end w-8/12 space-y-2 text-sm text-right text-gray-800">
+            <div class="flex items-center space-x-2 ">
+              <span>   تحليل مفصل للمداخيل والنفقات وصافي الأرباح.
               </span>
               <img class="w-2 rotate-180" src="./img/arrow6-svgrepo-com (1).svg" alt="">
           </div>  
           <div class="flex items-center space-x-2">
-            <span>  يمكنك ربط جميع المتاجر مع جميع شركات التوصيل 
+            <span> 
+              تحليلات مفصلة لفريق التاكيد والتتبع وعملياته 
             </span>
             <img class="w-2 rotate-180" src="./img/arrow6-svgrepo-com (1).svg" alt="">
         </div> 
         <div class="flex items-center space-x-2">
-          <span>رفع عدة طلبيات في مرة واحدة وطباعة قسيمة التوصيل. 
+          <span> تفاصيل دقيقة حول نجاعة التوصيل
+            </span>
+            <img class="w-2 rotate-180" src="./img/arrow6-svgrepo-com (1).svg" alt="">
+        </div> 
+        <div class="flex items-center space-x-2">
+          <span> عرض أهم المؤشرات لتطوير الأعمال والتجارة
+            </span>
+            <img class="w-2 rotate-180" src="./img/arrow6-svgrepo-com (1).svg" alt="">
+        </div> 
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="flex justify-center w-9/12 ">
+    <div class="relative w-1/3 h-56 p-4 border-2 rounded-lg shadow border-pgc delay-[300ms] duration-[600ms] taos:translate-y-[100%] taos:invisible" data-taos-offset="300">
+      <img class="absolute w-48 opacity-75 -left-2 top-2" src="./img/list-clipboard-svgrepo-com (2).svg" alt="">
+      <div class="flex flex-col items-end w-full space-y-4 ">
+      <span class="font-bold text-pbc">  إدارة جميع الطلبيات في مكان واحد وبشكل احترافي</span>
+      <div class="flex flex-col items-end w-8/12 space-y-2 text-sm text-right text-gray-800">
+          <div class="flex items-center space-x-2 ">
+            <span>   متابعة وتأكيد الطلبيات في جدول مرن وذو تصميم عصري
+            </span>
+            <img class="w-2 rotate-180" src="./img/arrow6-svgrepo-com (1).svg" alt="">
+        </div>  
+        <div class="flex items-center space-x-2">
+          <span> 
+            قائمة الولايات والبلديات والمكاتب لكل شركات التوصيل في مكان واحد
+
           </span>
           <img class="w-2 rotate-180" src="./img/arrow6-svgrepo-com (1).svg" alt="">
       </div> 
-        </div>
-      <img class="w-32 " src="./img/smartphone-location-svgrepo-com.svg" alt="">
-    </div>
-    </div>
+      <div class="flex items-center space-x-2">
+        <span> الكشف التلقائي عن الزبائن غير الجادين والزبائن الأوفياء risk blacklist
 
+          </span>
+          <img class="w-2 rotate-180" src="./img/arrow6-svgrepo-com (1).svg" alt="">
+      </div> 
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="flex justify-end w-9/12">
+      <div class="relative w-1/3 h-56 p-4 border-2 rounded-lg shadow border-pgc delay-[300ms] duration-[600ms] taos:translate-x-[100%] taos:invisible" data-taos-offset="400">
+        <img class="absolute w-48 opacity-75 -left-2 -top-0" src="./img/smartphone-location-svgrepo-com.svg" alt="">
+        <div class="flex flex-col items-end w-full space-y-4 ">
+        <span class="font-bold text-pbc">  متابعة حالة الطلبيات بشكل لحظي </span>
+        <div class="flex flex-col items-end w-8/12 space-y-2 text-sm text-right text-gray-800">
+            <div class="flex items-center space-x-2 ">
+              <span>    إدارة الموزعين وتسجيل محاولات التتبع              </span>
+              <img class="w-2 rotate-180" src="./img/arrow6-svgrepo-com (1).svg" alt="">
+          </div>  
+          <div class="flex items-center space-x-2">
+            <span> 
+              تتبع جميع الطلبيات من جميع شركات التوصيل في مكان واحد و بشكل احترافي 
+            </span>
+            <img class="w-2 rotate-180" src="./img/arrow6-svgrepo-com (1).svg" alt="">
+        </div> 
+        <div class="flex items-center space-x-2">
+          <span> تتبع الموزعين ووضع ملاحظات حول كل محاولة توصيل
+            </span>
+            <img class="w-2 rotate-180" src="./img/arrow6-svgrepo-com (1).svg" alt="">
+        </div> 
+        <div class="flex items-center space-x-2">
+          <span> عرض تفصيلي لسجل التوصيل ومحاولات التتبع 
+            </span>
+            <img class="w-2 rotate-180" src="./img/arrow6-svgrepo-com (1).svg" alt="">
+        </div> 
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+    </div>
 </section>
 
-<section class="flex items-center w-full pt-36 justify-evenly bg-gradient-to-b from-bgc to-transparent">
-    <div class="flex flex-col space-y-4">
-        <div class="flex items-center space-x-4">
-        <img class="w-56 p-2 border rounded-lg border-pgc" src="./img/logo.png" alt="">
-        <img class="w-56 border rounded-lg border-pgc" src="./img/logo.png" alt="">
-    </div>
-        <div class="flex items-center space-x-4">
-            <img class="w-56 border rounded-lg border-pgc" src="./img/logo.png" alt="">
-            <img class="w-56 border rounded-lg border-pgc" src="./img/logo.png" alt="">
-        </div>
-    </div>
-    <div class="flex flex-col space-y-4 text-right w-1/3">
-        <span class="text-5xl font-bold">متجرك على ذوقك </span>
-        <p class="text-2xl text-gray-600 ">من خلال هذه الميزات التلقائية في ، 
-          ستتمكن من تسهيل وتسريع عملية
-           ادارة الطلبيات. لن تحتاج إلى إدخال المعلومات يدويًا في منصات شركات الشحن
-           أو إعداد وثائق الشحن والفواتير بشكل منفصل. ستحسن الكفاءة وتوفير الوقت،
-           مما يساعدك في توفير تجربة شحن سلسة لعملائك وتحقيق تسليم سريع وفعال للطلبيات.</p>
-    </div>
-</section>
+
 
 
 
 <section class="w-full justify-evenly bg-gradient-to-t from-bgc to-transparent">
   <div class="flex items-center w-3/4 mx-auto ">
-    <div class="flex flex-col items-end justify-start w-1/3 space-y-6 text-right">
-        <span class="text-4xl font-bold">متجرك على ذوقك </span>
-        <span class="text-sm text-gray-600">نجاحك التجاري يحتاج الى مظهر انيق </span>
+    <div class="flex flex-col w-1/3 space-y-4 text-right delay-[300ms] duration-[600ms] taos:translate-x-[200px] taos:opacity-0" data-taos-offset="300">
+      <span class="text-2xl font-bold leading-loose tracking-wide"> إدارة جميع الطلبيات 
+      </span>
+      <p class="text-sm leading-loose tracking-wide text-gray-600"> مع  octomatic، ستتمكن من تجميع جميع طلبياتك في مكان واحد بدون أي جهد منك. سواء كنت تستخدم Facebook   Leads أو Shopify أو  WooCommerce، او gogle sheet و ستتمكن من ربط المنصة مع هذه المنصات واستيراد جميع الطلبيات تلقائيًا. وربطها في نفس الوقت مع  جميع شركات التوصيل وارسال عدة طلبيات لعدة شركات في وقت واحد .
+       
+        </p>
+        <div class="flex flex-col items-end space-y-2 text-sm text-right text-gray-800">
+          <div class="flex items-center space-x-2 ">
+            <span>    توزيع الطلبيات على اعضاء الفريق  يدويا وتلقائيا              </span>
+            <img class="w-2 rotate-180" src="./img/arrow6-svgrepo-com (1).svg" alt="">
+        </div>  
         <div class="flex items-center space-x-2">
-            <span>مكتبة متنوعة من الثيمات قابلة لي تخصيص </span>
-            <img class="w-4 rotate-180" src="./img/arrow6-svgrepo-com (1).svg" alt="">
-        </div>
-        <div class="flex items-center space-x-2">
-            <span>مكتبة متنوعة من الثيمات قابلة لي تخصيص </span>
-            <img class="w-4 rotate-180" src="./img/arrow6-svgrepo-com (1).svg" alt="">
-        </div>
-        <div class="flex items-center space-x-2">
-            <span>مكتبة متنوعة من الثيمات قابلة لي تخصيص </span>
-            <img class="w-4 rotate-180" src="./img/arrow6-svgrepo-com (1).svg" alt="">
-        </div>
-    </div>
+          <span> 
+            كشف الطلبيات المتكررة 
+          </span>
+          <img class="w-2 rotate-180" src="./img/arrow6-svgrepo-com (1).svg" alt="">
+      </div> 
+      <div class="flex items-center space-x-2">
+        <span> تحكم كامل في الجداول وتخصيصها مع ترتيب الطلبيات بالشكل الذي تريده 
+          </span>
+          <img class="w-2 rotate-180" src="./img/arrow6-svgrepo-com (1).svg" alt="">
+      </div> 
+      <div class="flex items-center space-x-2">
+        <span> أرشيف محاولات تأكيد الطلبيات مع التفاصيل الكاملة  لكل محاولة وكل اجراء بالدقيقة والثانية .
+          </span>
+          <img class="w-2 rotate-180" src="./img/arrow6-svgrepo-com (1).svg" alt="">
+      </div> 
+      </div>
+  </div>
 
     <img class="w-1/2 p-2 " src="./img/realistic_laptop_with_smartphone.png" alt="">
   </div>
 </section>
 
 
-<section class="flex flex-col w-full pt-20 bg-gradient-to-b from-bgc to-transparent">
+
+
+
+
+
+
+<section class="flex flex-col items-center justify-center w-full pt-16 space-y-8 bg-gradient-to-b from-bgc to-transparent">
+  <div class="flex justify-end w-9/12 ">
+    <div class="relative w-1/3 h-56 p-4 border-2 rounded-lg shadow border-pgc delay-[300ms] duration-[600ms] taos:translate-x-[100%] taos:invisible" data-taos-offset="400">
+      <img class="absolute w-48 opacity-75 -left-2 top-4" src="./img/radial-tree-graphic-graph-infographic-svgrepo-com.svg" alt="">
+      <div class="flex flex-col items-end w-full space-y-4 ">
+      <span class="font-bold text-pbc">  مزامنة اسعار التوصيل مع جميع شركات التوصيل
+      </span>
+      <div class="flex flex-col items-end w-8/12 space-y-2 text-sm text-right text-gray-800">
+          <div class="flex items-center space-x-2 ">
+            <span>  تخصيص اسعار التوصيل حسب شركة التوصيل 
+
+            </span>
+            <img class="w-2 rotate-180" src="./img/arrow6-svgrepo-com (1).svg" alt="">
+        </div>  
+        <div class="flex items-center space-x-2">
+          <span> 
+            تخصيص اسعار التوصيل حسب الولاية ونوعية التوصيل
+
+          </span>
+          <img class="w-2 rotate-180" src="./img/arrow6-svgrepo-com (1).svg" alt="">
+      </div> 
+      <div class="flex items-center space-x-2">
+        <span> تخصيص اسعار التوصيل حسب منتج واحد أو عدة منتجات 
+
+          </span>
+          <img class="w-2 rotate-180" src="./img/arrow6-svgrepo-com (1).svg" alt="">
+      </div> 
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="flex justify-center w-9/12 ">
+  <div class="relative w-1/3 h-56 p-4 border-2 rounded-lg shadow border-pgc delay-[300ms] duration-[600ms] taos:translate-y-[100%] taos:invisible" data-taos-offset="300">
+    <img class="absolute w-48 opacity-75 -left-2 top-2" src="./img/product-svgrepo-com.svg" alt="">
+    <div class="flex flex-col items-end w-full space-y-4 ">
+    <span class="font-bold text-pbc">   إدارة شاملة للمخزون </span>
+    <div class="flex flex-col items-end w-8/12 space-y-2 text-sm text-right text-gray-800">
+        <div class="flex items-center space-x-2 ">
+          <span>   تتبع شامل للمنتجات في جميع مراحل التوصيل.
+
+          </span>
+          <img class="w-2 rotate-180" src="./img/arrow6-svgrepo-com (1).svg" alt="">
+      </div>  
+      <div class="flex items-center space-x-2">
+        <span> 
+          تنبيهات حول نفاذ المخزون والطلبيات الضائعة.
+
+        </span>
+        <img class="w-2 rotate-180" src="./img/arrow6-svgrepo-com (1).svg" alt="">
+    </div> 
+    <div class="flex items-center space-x-2">
+      <span> تتبع جميع تحركات المخزون 
+
+
+        </span>
+        <img class="w-2 rotate-180" src="./img/arrow6-svgrepo-com (1).svg" alt="">
+    </div> 
+    </div>
+  </div>
+</div>
+</div>
+<div class="flex justify-start w-9/12">
+    <div class="relative w-1/3 h-56 p-4 border-2 rounded-lg shadow border-pgc   delay-[300ms] duration-[600ms] taos:translate-x-[-100%] taos:invisible" data-taos-offset="400">
+      <img class="absolute w-48 opacity-75 -left-1 -top-0" src="./img/team-group-svgrepo-com.svg" alt="">
+      <div class="flex flex-col items-end w-full space-y-4 ">
+      <span class="font-bold text-pbc">  . إدارة فعالة لفريق تأكيد الطلبيات</span>
+      <div class="flex flex-col items-end w-8/12 space-y-2 text-sm text-right text-gray-800">
+          <div class="flex items-center space-x-2 ">
+            <span>  ادارة فريق العمل وتتبع دفعاتهم وتقييم ادائهم 
+            </span>
+            <img class="w-2 rotate-180" src="./img/arrow6-svgrepo-com (1).svg" alt="">
+        </div>  
+        <div class="flex items-center space-x-2">
+          <span> 
+            تكليف كل عضو بمنتجات محددة وارسال له طلبيات محددة بشكل اوتوماتيكي 
+
+          </span>
+          <img class="w-2 rotate-180" src="./img/arrow6-svgrepo-com (1).svg" alt="">
+      </div> 
+      <div class="flex items-center space-x-2">
+        <span> يمكنك تحديد صلاحيات كل مستخدم وفقًا لمتطلبات عملك وتكليفهم بمهام محددة.
+
+          </span>
+          <img class="w-2 rotate-180" src="./img/arrow6-svgrepo-com (1).svg" alt="">
+      </div> 
+      <div class="flex items-center space-x-2">
+        <span> يمكن إضافة مدير ينوب عنك في إدارة البزنس الخاص بك .
+          </span>
+          <img class="w-2 rotate-180" src="./img/arrow6-svgrepo-com (1).svg" alt="">
+      </div> 
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+  </div>
+</section>
+
+
+
+<section class="w-full justify-evenly bg-gradient-to-t from-bgc to-transparent">
+  <div class="flex items-center w-3/4 mx-auto ">
+    <div class="flex flex-col w-1/3 space-y-4 text-right delay-[300ms] duration-[600ms] taos:translate-x-[200px] taos:opacity-0" data-taos-offset="300">
+      <span class="text-2xl font-bold leading-loose tracking-wide"> تخلص من عناء رفع الطلبيات لشركة التوصيل 
+      </span>
+      <p class="text-sm leading-loose tracking-wide text-gray-600"> من خلال هذه الميزات التلقائية في octomatic ، ستتمكن من تسهيل وتسريع عملية ادارة الطلبيات. لن تحتاج إلى إدخال المعلومات يدويًا في منصات شركات الشحن أو إعداد وثائق الشحن والفواتير بشكل منفصل. ستحسن الكفاءة وتوفير الوقت، مما يساعدك في توفير تجربة شحن سلسة لعملائك وتحقيق تسليم سريع وفعال للطلبيات.
+        </p>
+      
+  </div>
+
+    <img class="w-1/2 p-2 " src="./img/realistic_laptop_with_smartphone.png" alt="">
+  </div>
+</section>
+
+
+<section class="flex flex-col items-center justify-center w-full pt-16 space-y-8 bg-gradient-to-b from-bgc to-transparent">
+  <div class="flex justify-end w-9/12 ">
+    <div class="relative w-1/3 h-56 p-4 border-2 rounded-lg shadow border-pgc delay-[300ms] duration-[600ms] taos:translate-x-[100%] taos:invisible" data-taos-offset="400">
+      <img class="absolute w-48 opacity-75 -left-2 top-4" src="./img/online-delivery-svgrepo-com.svg" alt="">
+      <div class="flex flex-col items-end w-full space-y-4 ">
+      <span class="font-bold text-pbc"> . إدارة فريق التوصيل 
+      </span>
+      <div class="flex flex-col items-end w-8/12 space-y-2 text-sm text-right text-gray-800">
+          <div class="flex items-center space-x-2 ">
+            <span>     إضافة وتتبع موظفي التوصيل بفعالية ودقة 
+
+
+            </span>
+            <img class="w-2 rotate-180" src="./img/arrow6-svgrepo-com (1).svg" alt="">
+        </div>  
+        <div class="flex items-center space-x-2">
+          <span> 
+            تعيين موزعين خاصين بك في ولايات معينة وباسعار محددة
+
+
+          </span>
+          <img class="w-2 rotate-180" src="./img/arrow6-svgrepo-com (1).svg" alt="">
+      </div> 
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="flex justify-center w-9/12 ">
+  <div class="relative w-1/3 h-56 p-4 border-2 rounded-lg shadow border-pgc delay-[300ms] duration-[600ms] taos:translate-y-[100%] taos:invisible" data-taos-offset="300">
+    <img class="absolute w-48 opacity-75 -left-2 top-2" src="./img/invoice-sales-line-svgrepo-com.svg" alt="">
+    <div class="flex flex-col items-end w-full space-y-4 ">
+    <span class="font-bold text-pbc"> . قنوات البيع </span>
+    <div class="flex flex-col items-end w-8/12 space-y-2 text-sm text-right text-gray-800">
+        <div class="flex items-center space-x-2 ">
+          <span> ربط جميع المتاجر مثل شوبيفاي ووكومرس ويوكان لتأكيد الطلبيات بشكل مباشر.
+
+          </span>
+          <img class="w-2 rotate-180" src="./img/arrow6-svgrepo-com (1).svg" alt="">
+      </div>  
+      <div class="flex items-center space-x-2">
+        <span> 
+          ربط قوقل شيت لتلقي وتأكيد الطلبيات
+
+        </span>
+        <img class="w-2 rotate-180" src="./img/arrow6-svgrepo-com (1).svg" alt="">
+    </div> 
+    <div class="flex items-center space-x-2">
+      <span> - استقبال وتأكيد الليدس من فيسبوك وإرسالها لشركات التوصيل
+
+
+        </span>
+        <img class="w-2 rotate-180" src="./img/arrow6-svgrepo-com (1).svg" alt="">
+    </div> 
+    </div>
+  </div>
+</div>
+</div>
+<div class="flex justify-start w-9/12">
+    <div class="relative w-1/3 h-56 p-4 border-2 rounded-lg shadow border-pgc   delay-[300ms] duration-[600ms] taos:translate-x-[-100%] taos:invisible" data-taos-offset="400">
+      <img class="absolute w-48 opacity-75 -left-2 -top-0" src="./img/order-svgrepo-com.svg" alt="">
+      <div class="flex flex-col items-end w-full space-y-4 ">
+      <span class="font-bold text-pbc">  متابعة حالة الطلبيات بشكل لحظي</span>
+      <div class="flex flex-col items-end w-8/12 space-y-2 text-sm text-right text-gray-800">
+          <div class="flex items-center space-x-2 ">
+            <span>    إدارة الموزعين وتسجيل محاولات التتبع.
+
+            </span>
+            <img class="w-2 rotate-180" src="./img/arrow6-svgrepo-com (1).svg" alt="">
+        </div>  
+        <div class="flex items-center space-x-2">
+          <span> 
+            تتبع جميع الطلبيات من جميع شركات التوصيل في مكان واحد و بشكل احترافي .
+
+          </span>
+          <img class="w-2 rotate-180" src="./img/arrow6-svgrepo-com (1).svg" alt="">
+      </div> 
+      <div class="flex items-center space-x-2">
+        <span>   تتبع الموزعين ووضع ملاحظات حول كل محاولة توصيل
+          </span>
+          <img class="w-2 rotate-180" src="./img/arrow6-svgrepo-com (1).svg" alt="">
+      </div> 
+      <div class="flex items-center space-x-2">
+        <span>    عرض تفصيلي لسجل التوصيل ومحاولات التتبع .
+
+          </span>
+          <img class="w-2 rotate-180" src="./img/arrow6-svgrepo-com (1).svg" alt="">
+      </div> 
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="flex flex-col w-full pt-20 bg-gradient-to-t from-bgc to-transparent">
     <div class="overflow-auto ">
-        <div class="container max-w-4xl mx-auto">
+        <div class="container mx-auto max-w-10/12">
           <div class="mt-10 text-center">
             <h1 class="text-4xl font-bold text-gray-800">اسعار الاشتراك</h1>
             <p class="mt-3 text-lg font-semibold">كل اشتراك يكون فيه 100طلبية مجانية</p>
@@ -204,21 +467,57 @@
                     </svg>
                   </span>
                 </div>
-                <div class="flex">
-                  <span class="inline mr-4 font-semibold ">اختر العملة </span>
-                  <span class="flex items-center px-4 py-1 text-sm bg-gray-300 rounded-md cursor-pointer">$ USD
-                    <svg xmlns="" class="w-4 h-4 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-                    </svg>
-                  </span>
-                </div>
               </div>
             </div>
             <div></div>
           </div>
           <hr class="mt-10" />
-          <div class="flex pt-10 space-x-10 ">
-          <div class="w-1/3 py-12">
+          <div class="flex justify-center pt-10 space-x-10 ">
+            <div class="w-[18rem] py-12">
+              <div class="pt-4 space-y-6 overflow-hidden transition-all duration-500 transform bg-white shadow-xl cursor-pointer rounded-xl hover:-translate-y-6 hover:scale-105 hover:shadow-2xl">
+                <div class="flex items-center justify-between px-8">
+                  <svg xmlns="" class="w-5 h-5 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                    </svg>
+                    <h4 class="text-xl font-bold text-gray-800">وين </h1>
+                  </div>
+                  <h1 class="text-4xl font-bold text-center">10.00 DZ                  </h1>
+                  <p class="px-4 text-sm text-center ">   لكل طلبية </p>
+                  <ul class="px-2 text-right">
+                    <li class="flex justify-end w-full">
+                      شركات التوصيل
+                      <svg class="w-5 h-6 text-pgc" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                      </svg>
+                    </li>
+                    <li class="flex justify-end w-full">
+                      المتاجر
+                      <svg class="flex-none w-5 h-6 text-pgc" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                      </svg>
+                       
+                    </li>
+                    <li class="flex justify-end w-full">
+                      الفريق
+                      <svg class="flex-none w-5 h-6 text-pgc" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                      </svg>
+                      
+                    </li>
+                    <li class="flex justify-end w-full">
+                      احصائيات
+                      <svg class="flex-none w-5 h-6 text-pgc" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                      </svg>
+                     
+                    </li>
+                  </ul>
+                  <div class="text-center bg-gray-200 ">
+                    <button class="inline-block my-6 font-bold text-gray-800">ابدا اليوم</button>
+                  </div>
+              </div>
+            </div>
+          <div class="w-[18rem] py-12">
             <div class="pt-4 space-y-6 overflow-hidden transition-all duration-500 transform bg-white shadow-xl cursor-pointer rounded-xl hover:-translate-y-6 hover:scale-105 hover:shadow-2xl">
               <div class="flex items-center justify-between px-8">
                 <svg xmlns="" class="w-5 h-5 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -228,7 +527,8 @@
                
                 </div>
                 <h1 class="text-4xl font-bold text-center">3900.00 DZ</h1>
-                <p class="px-4 text-sm text-center ">سوف تحصل على 600 طلبية صالحة ل 30 والكثير من المميزات   سوف تحصل على 600 طلبية صالحة ل 30 والكثير من المميزات  سوف تحصل على 600 طلبية صالحة ل 30 والكثير من المميزات </p>
+                <p class="px-4 text-sm text-center ">سوف تحصل على 600 طلبية صالحة ل 30 والكثير من المميزات  
+             </p>
                 <ul class="px-2 text-right">
                   <li class="flex justify-end w-full">
                     شركات التوصيل
@@ -263,7 +563,7 @@
                 </div>
             </div>
           </div>
-          <div class="w-1/3 py-12">
+          <div class="w-[18rem] py-12">
             <div class="pt-4 space-y-6 overflow-hidden transition-all duration-500 transform scale-105 -translate-y-2 bg-white shadow-xl cursor-pointer rounded-xl hover:-translate-y-6 hover:shadow-2xl">
               <div class="flex items-center justify-between px-8">
                 <svg xmlns="" class="w-5 h-5 text-pgc" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -271,7 +571,7 @@
                 <h4 class="text-xl font-bold text-gray-800">محترف</h1>  
               </div>
                 <h1 class="text-4xl font-bold text-center">6700.00 DZ</h1>
-                <p class="px-4 text-sm text-center ">سوف تحصل على 600 طلبية صالحة ل 30 والكثير من المميزات   سوف تحصل على 600 طلبية صالحة ل 30 والكثير من المميزات  سوف تحصل على 1000 طلبية صالحة ل 30 والكثير من المميزات </p>
+                <p class="px-4 text-sm text-center "> سوف تحصل على 1000 طلبية صالحة ل 30 والكثير من المميزات </p>
                 <ul class="px-2 text-right">
                   <li class="flex justify-end w-full">
                     شركات التوصيل
@@ -306,7 +606,8 @@
                 </div>
             </div>
           </div>
-          <div class="w-1/3 py-12">
+      
+          <div class="w-[18rem] py-12">
             <div class="pt-4 space-y-6 overflow-hidden transition-all duration-500 transform bg-white shadow-xl cursor-pointer rounded-xl hover:-translate-y-6 hover:scale-105 hover:shadow-2xl">
               <div class="flex items-center justify-between px-8">
                 <svg xmlns="" class="w-5 h-5 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -314,8 +615,8 @@
                   </svg>
                   <h4 class="text-xl font-bold text-gray-800">اعمال </h1>
                 </div>
-                <h1 class="text-4xl font-bold text-center">يتم تحديد سعر مخصص</h1>
-                <p class="px-4 text-sm text-center ">سوف تحصل على 600 طلبية صالحة ل 30 والكثير من المميزات   سوف تحصل على 600 طلبية صالحة ل 30 والك المميزات </p>
+                <h1 class="text-4xl font-bold text-center">  سعر مخصص</h1>
+                <p class="px-4 text-sm text-center ">   تحديد سعر خاص  </p>
                 <ul class="px-2 text-right">
                   <li class="flex justify-end w-full">
                     شركات التوصيل
@@ -409,18 +710,18 @@
 </section>
 
 
-<footer class="flex flex-col w-full mt-20 text-center bg-gradient-to-t from-bgc to-transparent dark:bg-gray-900">
+<footer class="flex flex-col w-full pt-20 text-center bg-gradient-to-b from-bgc to-transparent dark:bg-gray-900">
     <div class="w-full max-w-screen-xl p-4 py-6 mx-auto lg:py-8">
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
-              <a href="https://flowbite.com/" class="flex items-center">
-                  <img src="./img/logo.png" class="h-8 me-3" alt="FlowBite Logo" />
+              <a href="" class="flex items-center">
+                  <img src="./img/logo.png" class="h-24 me-3" alt="" />
                   <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Octomatic</span>
               </a>
           </div>
           <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
               <div>
-                  <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">موارد</h2>
+                  <h2 class="mb-6 text-lg font-semibold text-gray-900 uppercase dark:text-white">موارد</h2>
                   <ul class="font-medium text-gray-500 dark:text-gray-400">
                       <li class="mb-4">
                           <a href="" class="hover:underline">دروس تعلمية</a>
@@ -428,7 +729,7 @@
                   </ul>
               </div>
               <div>
-                  <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">تابعونا على</h2>
+                  <h2 class="mb-6 text-lg font-semibold text-gray-900 uppercase dark:text-white">تابعونا على</h2>
                   <ul class="font-medium text-gray-500 dark:text-gray-400">
                       <li class="mb-4">
                           <a href="https://github.com/themesberg/flowbite" class="hover:underline ">facebook</a>
@@ -439,7 +740,7 @@
                   </ul>
               </div>
               <div>
-                  <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">قانون</h2>
+                  <h2 class="mb-6 text-lg font-semibold text-gray-900 uppercase dark:text-white">قانون</h2>
                   <ul class="font-medium text-gray-500 dark:text-gray-400">
                       <li class="mb-4">
                           <a href="#" class="hover:underline">Privacy Policy</a>
@@ -481,6 +782,7 @@
 </footer>
 
 
+<script src="https://unpkg.com/taos@1.0.5/dist/taos.js"></script>
 
 </body>
 
