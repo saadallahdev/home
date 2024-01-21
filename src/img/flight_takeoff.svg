@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="flight_takeoff" transform="translate(-202 -242)">
+    <rect id="Path" width="24" height="24" transform="translate(202 242)" fill="rgba(0,0,0,0)"/>
+    <path id="Icon" d="M223.5,263h-19v-2h19v2Zm-17.069-5.08h0l-2.59-4.489,1.45-.39,1.97,1.54,4.97-1.33-4.14-7.17,1.931-.51,6.9,6.43,5.31-1.42a1.494,1.494,0,0,1,1.84,1.06,1.516,1.516,0,0,1-1.07,1.85l-16.569,4.431Z" fill="#fff"/>
+  </g>
+</svg>

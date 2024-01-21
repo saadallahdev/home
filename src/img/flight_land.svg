@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="flight_land" transform="translate(-236 -242)">
+    <rect id="Path" width="24" height="24" transform="translate(236 242)" fill="rgba(0,0,0,0)"/>
+    <path id="Icon" d="M257.5,263h-19v-2h19v2Zm-1.775-5.1a1.522,1.522,0,0,1-.385-.05l-16.57-4.441v-5.17l1.45.39.93,2.32,4.971,1.33V244l1.93.509,2.76,9.021,5.31,1.42a1.5,1.5,0,0,1-.395,2.95Z" fill="#fff"/>
+  </g>
+</svg>

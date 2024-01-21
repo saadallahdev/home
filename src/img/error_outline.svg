@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="error_outline" transform="translate(-168 -728)">
+    <rect id="Rectangle_Copy_2" data-name="Rectangle Copy 2" width="24" height="24" transform="translate(168 728)" fill="rgba(0,0,0,0)"/>
+    <path id="Icon" d="M179.99,750a10,10,0,1,1,10-10A10.011,10.011,0,0,1,179.99,750Zm.01-18a8,8,0,1,0,8,8A8.009,8.009,0,0,0,180,732Zm1,13h-2v-2h2v2Zm0-4h-2v-6h2v6Z" fill="#fdba74"/>
+  </g>
+</svg>

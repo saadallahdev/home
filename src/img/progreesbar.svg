@@ -1,0 +1,49 @@
+<svg id="SvgjsSvg6780" width="86" height="87" xmlns="http://www.w3.org/2000/svg" 
+version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:svgjs="http://svgjs.dev" class="apexcharts-svg"
+  xmlns:data="ApexChartsNS" transform="translate(0, 0)"
+   style="background: transparent;">
+   <foreignObject x="" y="0" width="86" height="87">
+   <div class="apexcharts-legend" xmlns="http://www.w3.org/1999/xhtml"
+    style="max-height: 43px;"></div></foreignObject><g id="SvgjsG6782"
+     class="apexcharts-inner apexcharts-graphical" transform="translate(0, 0)">
+     <defs id="SvgjsDefs6781"><clipPath id="gridRectMaskzjnyyks9l">
+     <rect id="SvgjsRect6783" width="93" height="89" x="-3.5" y="-1.5" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fff"></rect></clipPath><clipPath id="forecastMaskzjnyyks9l"></clipPath><clipPath id="nonForecastMaskzjnyyks9l"></clipPath><clipPath id="gridRectMarkerMaskzjnyyks9l"><rect id="SvgjsRect6784" width="90" height="90" x="-2" y="-2" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fff">
+     </rect>
+     </clipPath>
+     <linearGradient id="SvgjsLinearGradient6789" x1="0" y1="0" x2="0" y2="1">
+     <stop id="SvgjsStop6790" stop-opacity="1" stop-color="#5be49b" offset="2">
+     </stop>
+     <stop id="SvgjsStop6791" stop-opacity="1" stop-color="#00a76f" offset="1"></stop>
+     </linearGradient>
+     <linearGradient id="SvgjsLinearGradient6798" x1="0" y1="0" x2="0" y2="1">
+     <stop id="SvgjsStop6799" stop-opacity="1" stop-color="#FF393F" offset="0"></stop>
+     <stop id="SvgjsStop6800" stop-opacity="1" stop-color="#FF393F" offset="1">
+     </stop>
+     </linearGradient>
+     </defs><g id="SvgjsG6785" 
+     class="apexcharts-radialbar">
+     <g id="SvgjsG6786"><g id="SvgjsG6787" class="apexcharts-tracks">
+     <g id="SvgjsG6788" class="apexcharts-radialbar-track apexcharts-track" rel="1">
+     <path id="apexcharts-radialbarTrack-0"
+      d="M 43 7.970731707317071 A 35.02926829268293 35.02926829268293 0 1 1 42.993886239368315 7.970732240843333" fill="none" fill-opacity="1" stroke="rgba(145, 158, 171, 0.16)" stroke-opacity="1" stroke-linecap="round" stroke-width="4.614634146341464" stroke-dasharray="0"
+      class="apexcharts-radialbar-area" 
+      data:pathOrig="M 43 7.970731707317071 A 35.02926829268293 35.02926829268293 0 1 1 42.993886239368315 7.970732240843333">
+      </path>
+      </g></g><g id="SvgjsG6793">
+      <g id="SvgjsG6797" class="apexcharts-series apexcharts-radial-series" seriesName="series-1" rel="1" data:realIndex="0">
+      <path id="SvgjsPath6801" 
+      d="M 43 7.970731707317071 A 35.02926829268293 35.02926829268293 0 0 1 47.26899392679202 77.76816543871382"
+       fill="none" fill-opacity="1" stroke="url(#SvgjsLinearGradient6798)" 
+       stroke-opacity="1" stroke-linecap="round" stroke-width="4.614634146341464" 
+      stroke-dasharray="" class="apexcharts-radialbar-area apexcharts-radialbar-slice-0"
+       data:angle="100" data:value="100" index="0" j="0" 
+       data:pathOrig="M 43 7.970731707317071 A 35.02926829268293 35.02926829268293 0 0 1 47.26899392679202 77.76816543871382">
+       </path></g><circle id="SvgjsCircle6794" r="100.7219512195122" cx="100" cy="100" class="apexcharts-radialbar-hollow" fill="transparent">
+       </circle><g id="SvgjsG6795" class="apexcharts-datalabels-group" transform="translate(0, 0) scale(1)" style="opacity: 1;">
+       <text id="SvgjsText6796" font-family="Public Sans, sans-serif" x="43" y="49" 
+      text-anchor="middle" dominant-baseline="auto" font-size="0.875rem" 
+      font-weight="700" fill="#000" class="apexcharts-text apexcharts-datalabel-value" 
+      style="font-family: &quot;Public Sans&quot;, sans-serif;">
+     48%</text></g></g></g></g><line id="SvgjsLine6803" x1="0" y1="0" x2="86" y2="0" stroke-dasharray="0" stroke-width="0" stroke-linecap="butt" class="apexcharts-ycrosshairs-hidden">
+</line></g></svg>
